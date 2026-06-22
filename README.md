@@ -23,7 +23,7 @@ Le projet est entièrement codé en C++ (Arduino) et organisé en modules indép
 ## Architecture du code
 
 Le dossier `src/` contient tous les modules du jeu :
-
+```
 src/
 ├── audio.h        → Gestion du buzzer, musiques, sons
 ├── config.h       → Définition des boutons
@@ -35,7 +35,7 @@ src/
 ├── movement.h     → Déplacements + animations du robot
 ├── portal.h       → Portail animé
 └── images/...     → Sprites convertis en RGB565
-
+```
 Chaque fichier gère une partie précise du jeu, ce qui rend le code clair, modulaire et facile à maintenir.
 
 ---
