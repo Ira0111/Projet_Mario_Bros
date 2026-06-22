@@ -43,10 +43,10 @@ void slideTransitionUp() {
 }
 
 void setup() {
-  pinMode(BTN_LEFT, INPUT_PULLUP);
-  pinMode(BTN_RIGHT, INPUT_PULLUP);
-  pinMode(BTN_UP, INPUT_PULLUP);
-  pinMode(BTN_DOWN, INPUT_PULLUP);
+  pinMode(BTN_LEFT, INPUT);
+  pinMode(BTN_RIGHT, INPUT);
+  pinMode(BTN_UP, INPUT);
+  pinMode(BTN_DOWN, INPUT);
 
   tft.begin(20000000);
   tft.setRotation(1);
